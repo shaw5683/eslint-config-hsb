@@ -1381,15 +1381,15 @@ module.exports = {
      */
     'space-before-blocks': ['error', 'always'],
     /**
-     * 命名函数表达式括号前禁止有空格，箭头函数表达式括号前面必须有一个空格
+     * 函数表达式括号前面必须有一个空格
      * @category Stylistic Issues
      * @fixable
      */
     'space-before-function-paren': [
       2,
       {
-        anonymous: 'ignore',
-        named: 'never',
+        anonymous: 'always',
+        named: 'always',
         asyncArrow: 'always'
       }
     ],
