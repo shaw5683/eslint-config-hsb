@@ -45,7 +45,7 @@ module.exports = {
      * @category Possible Errors
      * @reason console 的使用很常见
      */
-    'no-console': 'off',
+    'no-console': 1,
     /**
      * 禁止将常量作为分支条件判断中的测试表达式，但允许作为循环条件判断中的测试表达式
      * @category Possible Errors
@@ -1145,7 +1145,7 @@ module.exports = {
      * 禁止混用空格和缩进
      * @category Stylistic Issues
      */
-    'no-mixed-spaces-and-tabs': 'error',
+    'no-mixed-spaces-and-tabs': 0,
     /**
      * 禁止连续赋值，比如 a = b = c = 5
      * @category Stylistic Issues
@@ -1339,7 +1339,7 @@ module.exports = {
      * @fixable
      */
     semi: [
-      'error',
+      0,
       'always',
       {
         omitLastInOneLineBlock: true
@@ -1386,7 +1386,7 @@ module.exports = {
      * @fixable
      */
     'space-before-function-paren': [
-      'error',
+      2,
       {
         anonymous: 'ignore',
         named: 'never',
