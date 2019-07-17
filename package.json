@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hsb",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "hsb eslint配置检测规范",
   "license": "Apache-2.0",
   "repository": "shaw5683/eslint-config-hsb",

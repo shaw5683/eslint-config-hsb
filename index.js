@@ -2,8 +2,8 @@
 
 module.exports = {
   extends: ['eslint:recommended'],
-  parser: 'babel-eslint',
   parserOptions: {
+    parser: 'babel-eslint',
     ecmaVersion: 2019,
     // ECMAScript modules 模式
     sourceType: 'module',
