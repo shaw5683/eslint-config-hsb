@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hsb",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "hsb eslint配置检测规范",
   "license": "Apache-2.0",
   "repository": "shaw5683/eslint-config-hsb",
@@ -20,7 +20,8 @@
     ]
   },
   "files": [
-    "index.js"
+    "index.js",
+    "vue.js"
   ],
   "devDependencies": {
     "babel-eslint": "^8.2.3",
