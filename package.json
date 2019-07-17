@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-hsb",
+  "version": "0.1.2",
+  "description": "hsb eslint配置检测规范",
+  "license": "Apache-2.0",
+  "repository": "shaw5683/eslint-config-hsb",
+  "author": "hsb",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.1.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^7.2.2"
+  },
+  "dependencies": {
+    "eslint-plugin-vue-libs": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1"
+  }
+}
