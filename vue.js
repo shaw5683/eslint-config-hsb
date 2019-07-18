@@ -1,5 +1,7 @@
+// eslint-plugin-rule doc: https://eslint.vuejs.org/rules/
+
 module.exports = {
-	extends: ['plugin:vue-libs/recommended', './index.js'],
+	extends: ['plugin:vue/essential', './index.js'],
 	parser: 'vue-eslint-parser',
 	parserOptions: {
 		// 设置 js 的解析器为 babel-eslint
@@ -17,5 +19,19 @@ module.exports = {
 		allowImportExportEverywhere: false
 	},
 	plugins: ['vue'],
-	rules: {}
+	rules: {
+		'vue/html-end-tags': 2,
+		'vue/html-indent': 2,
+		'vue/max-attributes-per-line': [2, {
+			'singleline': 3
+		}],
+		'vue/multiline-html-element-content-newline': 2,
+		'vue/no-multi-spaces': 2,
+		'vue/no-spaces-around-equal-signs-in-attribute': 2,
+		'vue/no-template-shadow': 2,
+		'vue/prop-name-casing': 2,
+		'vue/require-prop-types': 2,
+		'vue/no-v-html': 2,
+		'vue/this-in-template': 2
+	}
 }
