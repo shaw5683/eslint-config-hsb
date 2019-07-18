@@ -22,5 +22,5 @@ module.exports = {
 
 ## Dev
 
-/index.js base规则
-/vue.js vue规则
++ /index.js base规则
++ /vue.js vue规则
