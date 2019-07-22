@@ -31,7 +31,6 @@ module.exports = {
 		'vue/no-template-shadow': 2,
 		'vue/prop-name-casing': 2,
 		'vue/require-prop-types': 2,
-		'vue/no-v-html': 2,
 		'vue/this-in-template': 2
 	}
 }
